@@ -1,6 +1,6 @@
 @extends('paginas.indexadm')
 @section('body')
-    <!-- Header -->
+    <!-- Header  -->
     <div class="form-signin mw-100 m-auto">
 
         @if (Session::has('mensagem'))

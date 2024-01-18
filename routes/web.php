@@ -13,6 +13,7 @@ use App\Http\Controllers\UserController;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/2', 'App\Http\Controllers\Website\WebsiteControllers@login2');
 
 Route::get('/', 'App\Http\Controllers\Website\WebsiteControllers@login');
 Route::get('/logout', 'App\Http\Controllers\Website\WebsiteControllers@logout');
